@@ -26,7 +26,6 @@ This project is a responsive signup form that allows users to input their person
 
 - HTML5
 - CSS3
-- JavaScript
 - [Bootstrap 5.1.0](https://getbootstrap.com/)
 
 ## Setup
