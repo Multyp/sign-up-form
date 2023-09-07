@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Harry Potter', Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.brand-image {
+  background-image: url('../assets/hogwarts-image.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+}
+
+.house-choice {
+  background-image: url('../assets/hogwarts-logo.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .brand-image {
+    height: 100vh;
+  }
+
+  .house-choice {
+    height: 50vh;
+    width: 50vh;
+    display: block;
+  }
+}
+
+.form-control:focus {
+  border-color: #495057;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.scrollable-signup-form {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 769px) {
+  .scrollable-signup-form {
+    max-height: unset;
+    overflow-y: auto;
+  }
+}
